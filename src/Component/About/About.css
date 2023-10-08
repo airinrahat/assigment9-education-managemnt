@@ -1,0 +1,12 @@
+.about-btn{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    /* border-radius: 5px; */
+    border-radius: 30px;
+      border-top-right-radius: 0;
+      border-bottom-left-radius: 0;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+}

@@ -1,0 +1,9 @@
+.pws-btn {
+    position: relative;
+  }
+  
+  .show-hide {
+    position: absolute;
+    top: -42px;
+    right: 15px;
+  }

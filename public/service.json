@@ -1,0 +1,54 @@
+
+    [
+      {
+        "id": 1,
+        "name": "Elegant Decor",
+        "image": "https://i.ibb.co/zNGrwgn/Rectangle-4287-1.png",
+        "price": "$1,500",
+        "description": "Transform your event with our elegant decor services. From floral arrangements to lighting design, we'll make your venue shine.",
+        "buttonLabel": "More Details"
+      },
+      {
+        "id": 2,
+        "name": "Gourmet Catering",
+        "image": "https://i.ibb.co/zNGrwgn/Rectangle-4287-1.png",
+        "price": "$2,000",
+        "description": "Indulge your guests with our gourmet catering. Exquisite dishes and impeccable service to elevate your event.",
+        "buttonLabel": "More Details"
+      },
+      {
+        "id": 3,
+        "name": "Live Entertainment",
+        "image": "https://i.ibb.co/zNGrwgn/Rectangle-4287-1.png",
+        "price": "$3,500",
+        "description": "Keep the party alive with our live entertainment options. Bands, DJs, and performers to keep your guests dancing.",
+        "buttonLabel": "More Details"
+      },
+      {
+        "id": 4,
+        "name": "Professional Photography",
+        "image": "https://i.ibb.co/zNGrwgn/Rectangle-4287-1.png",
+        "price": "$1,200",
+        "description": "Capture the memories with our professional photography services. High-quality photos to cherish forever.",
+        "buttonLabel": "More Details"
+      },
+      {
+        "id": 5,
+        "name": "Event Planning",
+        "image": "https://i.ibb.co/zNGrwgn/Rectangle-4287-1.png",
+        "price": "$2,500",
+        "description": "Stress-free event planning by our experienced team. We handle all the details so you can enjoy your event.",
+        "buttonLabel": "More Details"
+      },
+      {
+        "id": 6,
+        "name": "Transportation",
+        "image": "https://i.ibb.co/zNGrwgn/Rectangle-4287-1.png",
+        "price": "$800",
+        "description": "Ensure seamless transportation for your guests. Luxury cars, shuttles, and more to get everyone where they need to be.",
+        "buttonLabel": "More Details"
+      }
+      
+    ]
+  
+  
