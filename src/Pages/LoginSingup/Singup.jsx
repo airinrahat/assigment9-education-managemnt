@@ -166,7 +166,7 @@ const Singup = () => {
                         className='mr-3'
                         />
                         <>
-                        Accept <Link to="/terms">Terms and Conditions</Link>
+                        Accept <Link>Terms and Conditions</Link>
                         </>
                         </div>
 
