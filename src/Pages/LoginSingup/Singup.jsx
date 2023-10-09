@@ -99,6 +99,8 @@ const Singup = () => {
             const loggedUser = result.user;
             console.log(loggedUser);
             setSuccess("User has been Singup successfully");
+            // setSuccess(alert('success'));
+            
             navigate(from, { replace: true });
           })
           .catch((error) => {

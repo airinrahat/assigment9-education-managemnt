@@ -5,6 +5,7 @@
 • Toast added in my project.<br/>
 • React icon added in my project.<br/>
 • Added 10 event card in my project<br/>
+• AOS added in my project<br/>
 
 ## Discuss managed my assignment project
 
@@ -25,3 +26,4 @@
 3.Tablet.<br/>
 4.Mobile Phone.<br/>
 • I used toast react in my project<br/>
+• AOS added in my project<br/>

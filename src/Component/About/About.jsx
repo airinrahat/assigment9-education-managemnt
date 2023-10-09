@@ -9,14 +9,18 @@ const About = () => {
    
    
     <div className="max-w-screen-xl mx-auto my-32">
-      <div className="grid grid-cols-2 gap-24 items-center">
+      <div className="grid grid-cols-2 gap-24 items-center" >
         <div>
           <img
             src="https://preview.colorlib.com/theme/kiddy/images/img_1.jpg"
-            alt=""
+            alt="" data-aos="fade-up"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1000"
           />
         </div>
-        <div>
+        <div data-aos="fade-up"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="1000">
           <h2 className="text-[#fd4d40] text-2xl italic">About Us</h2>
           <h3 className="text-4xl my-2">The Result of All True Learning</h3>
          
