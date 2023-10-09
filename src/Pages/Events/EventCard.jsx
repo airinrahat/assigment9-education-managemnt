@@ -14,7 +14,7 @@ const EventCard = ({event}) => {
                     <p>{details}</p>
                     <div>
                         <div>
-                        <p>{date}</p>
+                        <p className='font-bold'>{date}</p>
                         </div>
                         <div > 
                             <span className='flex font-bold'> <FaClock className='mr-2 mt-1'></FaClock>  {time}</span>
@@ -24,7 +24,7 @@ const EventCard = ({event}) => {
                         </div>
                     </div>
                     <div className="card-actions ">
-                    <button className="btn btn-primary">{button}</button>
+                    <button className="btn bg-[#dc3545] text-white">{button}</button>
                     </div>
                 </div>
              </div>
