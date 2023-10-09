@@ -8,7 +8,7 @@ const EventCard = ({event}) => {
     return (
         <div>
             <div className="card card-side bg-base-100 shadow-xl">
-                <figure><img src={image} className='w-70 h-3/4' alt="Movie"/></figure>
+                <figure><img src={image} className='w-[525px] h-[200px]' alt="Movie"/></figure>
                 <div className="card-body">
                     <h2 className="card-title text-bold text-2xl">{title}</h2>
                     <p>{details}</p>
