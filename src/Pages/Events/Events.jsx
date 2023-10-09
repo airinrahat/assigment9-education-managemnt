@@ -8,11 +8,9 @@ const Events = () => {
     console.log(events);
    
     return (
-
-        
-        <div className='max-w-screen-xl mx-auto my-10'>
-             <h2 className='text-4xl text-center font-bold'>Our Events: {events.length}</h2>
-           <div className="grid grid-cols-2 gap-24 items-center">
+        <div className='max-w-screen-xl mx-auto mt-5 mb-10'>
+             <h2 className='text-4xl text-center mb-10 font-bold'>Our Events</h2>
+           <div className="grid lg:grid-cols-2 lg:px-0 px-10 gap-10 items-center">
            {
             events.slice(0,6).map((event) => (<EventCard key={event.id} event={event}></EventCard>))
            }

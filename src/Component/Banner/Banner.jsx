@@ -22,13 +22,13 @@ const Banner = () => {
         }}
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper"
+        className="mySwiper z-0 md:text-center text-center"
       >
         <SwiperSlide>
           <div className="banner-con banner-bg-1 flex justify-center items-center text-white ">
             <div className="banner-box md:w-2/4">
-              <h1 className="text-4xl  ">Education is the Mother of Leadership</h1>
-              <h4 className="text-lg py-2 mt-2 ">
+              <h1 className="text-4xl font-semibold">Education is the Mother of Leadership</h1>
+              <h4 className="text-xl py-2 mt-2 ">
               Education can Change Your Life! So what are you waiting for?
               </h4>
               <p className="my-2">
@@ -47,8 +47,8 @@ const Banner = () => {
         <SwiperSlide>
           <div className="banner-con banner-bg-2 flex justify-center items-center text-white ">
             <div className="banner-box md:w-2/4">
-            <h1 className="text-4xl  ">Education is the Mother of Leadership</h1>
-              <h4 className="text-lg py-2 mt-2 ">
+            <h1 className="text-4xl  font-semibold">Education is the Mother of Leadership</h1>
+              <h4 className="text-xl py-2 mt-2 ">
               Education can Change Your Life! So what are you waiting for?
               </h4>
               <p className="my-2">
@@ -67,8 +67,8 @@ const Banner = () => {
         <SwiperSlide>
           <div className="banner-con banner-bg-3 flex justify-center items-center text-white ">
             <div className="banner-box md:w-2/4">
-            <h1 className="text-4xl  ">Education is the Mother of Leadership</h1>
-              <h4 className="text-lg py-2 mt-2 ">
+            <h1 className="text-4xl  font-semibold">Education is the Mother of Leadership</h1>
+              <h4 className="text-xl py-2 mt-2 ">
               Education can Change Your Life! So what are you waiting for?
               </h4>
               <p className="my-2">
@@ -87,8 +87,8 @@ const Banner = () => {
         <SwiperSlide>
           <div className="banner-con banner-bg-4 flex justify-center items-center text-white ">
             <div className="banner-box md:w-2/4">
-            <h1 className="text-4xl  ">Education is the Mother of Leadership</h1>
-              <h4 className="text-lg py-2 mt-2 ">
+            <h1 className="text-4xl  font-semibold">Education is the Mother of Leadership</h1>
+              <h4 className="text-xl py-2 mt-2 ">
               Education can Change Your Life! So what are you waiting for?
               </h4>
               <p className="my-2">

@@ -4,8 +4,9 @@ import { FaFacebook,FaInstagram,FaLinkedin,FaTwitter,FaYoutube } from "react-ico
 import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
-      <footer className="footer p-10 bg-base-300 text-base-content">
-      <nav className=' mx-auto max-w-screen-xl'>
+      <footer className="p-10 bg-base-300 text-base-content ">
+      <div className='footer mx-auto max-w-screen-xl'>
+      <nav>
         <header className="footer-title text-xl">Services</header> 
         <a className="link link-hover">Branding</a> 
         <a className="link link-hover">Design</a> 
@@ -17,7 +18,7 @@ const Footer = () => {
     <a className="link link-hover">Terms of use</a> 
     <a className="link link-hover">Privacy policy</a> 
     <a className="link link-hover">Cookie policy</a>
-  </nav> 
+      </nav> 
       <nav>
         <header className="footer-title  text-xl">Company</header> 
         <a className="link link-hover">About us</a> 
@@ -37,6 +38,7 @@ const Footer = () => {
         </div>
       </div>
       </nav>
+      </div>
     </footer>
     );
 };

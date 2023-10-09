@@ -18,18 +18,17 @@ const Navbar = () => {
 
     const links = <>
      <li><NavLink to='/'>Home</NavLink></li>
-     <li className='mx-2'><NavLink to='/services'>Services</NavLink></li>
+     <li className='lg:mx-2'><NavLink to='/services'>Services</NavLink></li>
+     <li><NavLink to='/course'>Courses</NavLink></li>
+     <li className='lg:mx-2'><NavLink to='/events'>Events</NavLink></li>
      <li><NavLink to='/blog'>Blog</NavLink></li>
-     <li className='mx-2'><NavLink to='/course'>Courses</NavLink></li>
-     <li><NavLink to='/events'>Events</NavLink></li>
     </>
     return (
        <>
        <nav>
-
-          <div className="navbar bg-base-100 mx-auto max-w-screen-xl">
-        <div className="navbar-start py-6">
-          <div className="dropdown">
+          <div className="md:navbar bg-base-100 mx-auto max-w-screen-xl">
+        <div className="md:navbar-start py-6">
+          <div className="dropdown z-10">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
             </label>
@@ -45,12 +44,12 @@ const Navbar = () => {
           </ul>
         </div>
        
-        <div className="navbar-end">
+        <div className="md:navbar-end flex justify-center items-center gap-5 pb-5 md:pb-0">
 
         <div className="mr-2">
             {user ? (
             <div className='flex justify-center gap-3 items-center'>
-            <p className='font-semibold'>{user.displayName}</p>
+            <p className='font-semibold text-xl'>{user.displayName}</p>
             <img className='rounded-full h-12 w-12' src={user.photoURL} />
             </div>
             ): <img className='rounded-full h-12 w-12' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTHTAJPlLEQwOQG_g-WNP0WayMmnpM-Nq9ZA&usqp=CAU" />
@@ -72,7 +71,7 @@ const Navbar = () => {
             )}
         </div>
        
-        </div>
+          </div>
        </nav>
        
        </>

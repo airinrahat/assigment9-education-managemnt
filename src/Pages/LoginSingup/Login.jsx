@@ -11,6 +11,8 @@ import {
     MDBCheckbox
   }
   from 'mdb-react-ui-kit';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Login = () => {
 
@@ -37,16 +39,6 @@ const Login = () => {
         // validate
         setError("");
         setSuccess("");
-        // if (password) {
-        // setError("Please add at least one uppercase");
-        // return;
-        // } else if (!/(?=.*[!@#$&*])/.test(password)) {
-        // setError("Please add a special character.");
-        // return;
-        // } else if (password.length < 6) {
-        // setError("Please add at least 6 characters in your password");
-        // return;
-        // }
 
 
         signIn(email, password)
@@ -59,7 +51,10 @@ const Login = () => {
         .catch((error) => {
             console.log(error);
             setError(error.message);
+
         });
+        toast("User has been Login successfully!");
+
     }
 
     const handleGoogleLogin = () => {
@@ -123,7 +118,19 @@ const Login = () => {
 
                         <p className="text-center mt-4">Do not have an account <Link className="text-blue-600 font-bold" to="/singup"><u>Register</u></Link></p>
 
-                    </form>   
+                    </form>
+                    <ToastContainer
+                        position="top-center"
+                        autoClose={5000}
+                        hideProgressBar={false}
+                        newestOnTop={false}
+                        closeOnClick
+                        rtl={false}
+                        pauseOnFocusLoss
+                        draggable
+                        pauseOnHover
+                        theme="light"
+                        />
 
                 </div>
             </MDBRow>

@@ -3,9 +3,9 @@ import React from 'react';
 
 const Course = () => {
     return (
-        <div>
-            <h2 className='text-center text-5xl my-16 font-bold'>Top Popular Courses</h2>
-          <div className="flex min-h-screen items-center justify-center py-7 bg-neutral-400">
+        <div className='bg-neutral-200'>
+            <h2 className='text-center text-5xl py-12 font-bold'>Top Popular Courses</h2>
+          <div className="flex min-h-screen items-center justify-center py-7">
   <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
     <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
       <div className="h-96 w-72">

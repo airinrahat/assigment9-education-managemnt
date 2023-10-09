@@ -40,7 +40,6 @@ const routes =createBrowserRouter([
               },
               {
                 path:"/events",
-                // element:<Events></Events>,
                 element:<PrivateRoute>
                   <Events></Events>
                 </PrivateRoute>,

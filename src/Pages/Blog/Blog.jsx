@@ -34,16 +34,12 @@ const Blog = () => {
             id="panel1bh-header"
           >
             <Typography sx={{ width: "33%", flexShrink: 0 }}>
-              What is axios in react ?
+              What is  react ?
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              What is Axios? (A little bit of history) Axios is used to
-              communicate with the backend and it also supports the Promise API
-              that is native to JS ES6. It is a library which is used to make
-              requests to an API, return data from the API, and then do things
-              with that data in our React application.
+            React is an open-source JavaScript library for building user interfaces (UIs) or user interfaces for web applications. Developed and maintained by Facebook (now Meta), React has gained significant popularity among web developers for its efficiency and flexibility in creating interactive and dynamic web applications.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -76,16 +72,19 @@ const Blog = () => {
             id="panel3bh-header"
           >
             <Typography sx={{ width: "33%", flexShrink: 0 }}>
-              What is react hook form ?
+            How do I use Auth in Firebase?
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              React Hook Form is a library that helps you validate forms in
-              React. It is a minimal library without any other dependencies,
-              while being performant and straightforward to use, requiring
-              developers to write fewer lines of code than other form libraries.
-            </Typography>
+
+              1.Add and initialize the Authentication SDK.
+              2.(Optional) Prototype and test with Firebase Local Emulator Suite.
+              3.Sign up new users.
+              4.Sign in existing users.
+              5.Set an authentication state observer and get user data.
+              6.Next steps.
+    </Typography>
           </AccordionDetails>
         </Accordion>
         <Accordion
@@ -98,15 +97,12 @@ const Blog = () => {
             id="panel4bh-header"
           >
             <Typography sx={{ width: "33%", flexShrink: 0 }}>
-              npm in react.
+            Is Firebase authentication free?
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              NPM, the Node package manager is used for managing and sharing the
-              packages for either React or Angular. NPM will be installed along
-              with Nodejs. Node. js can be downloaded and installed from the
-              official NodeJs website.
+            Firebase Authentication with Identity Platform and Identity Platform are paid services. Firebase Authentication with Identity Platform is available without a billing instrument up to daily limits.
             </Typography>
           </AccordionDetails>
         </Accordion>
