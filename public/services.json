@@ -1,0 +1,53 @@
+[
+
+
+        {
+            "id": 1,
+            "name": "Introduction to Physics",
+            "image": "https://i.ibb.co/KsRYX1J/2218270-357d-2-1.jpg",
+            "price": 19.99,
+            "description": "Join us for an exciting journey into the world of physics. In this course, you'll learn the fundamental principles of classical and modern physics, from Newton's laws to quantum mechanics.",
+            "buttonLabel": "More Details"
+        },
+        {
+            "id": 2,
+            "name": "Art History Workshop",
+            "image": "https://i.ibb.co/9b6107h/id123-717x376.jpg",
+            "price": 24.99,
+            "description": "Explore the fascinating world of art history in this comprehensive workshop. From ancient cave paintings to contemporary art movements, you'll gain a deep understanding of the evolution of art through the ages.",
+            "buttonLabel": "More Details"
+        },
+        {
+            "id": 3,
+            "name": "Coding Bootcamp",
+            "image": " https://i.ibb.co/VTwZgWg/our-programmes-dept-of-teacher-education.jpg ",
+            "price": 399.99,
+            "description": "Become a skilled software developer in our intensive coding bootcamp. You'll dive deep into programming languages, web development, and software engineering principles.",
+            "buttonLabel": "More Details"
+        },
+        {
+            "id": 4,
+            "name": "History of Ancient Civilizations",
+            "image": "https://i.ibb.co/6HY4Xrq/veteran-teacher-600x350.jpg",
+            "price": 29.99,
+            "description": "Travel back in time and explore the rich history of ancient civilizations. From Mesopotamia to the Roman Empire, this course will immerse you in the captivating stories of the past.",
+            "buttonLabel": "More Details"
+        },
+        {
+            "id": 5,
+            "name": "Environmental Science Seminar",
+            "image": "https://i.ibb.co/d2QLLXK/laboratory.jpg",
+            "price": 9.99,
+            "description": "Delve into the world of environmental science and gain insights into critical issues affecting our planet. Learn about climate change, conservation efforts, and sustainable solutions.",
+            "buttonLabel": "More Details"
+        },
+        {
+            "id": 6,
+            "name": "Mathematics for All Ages",
+            "image": "https://i.ibb.co/F88Tk3K/cq5dam-mobile.jpg",
+            "price": 14.99,
+            "description": "Discover the beauty of mathematics in this engaging course suitable for all ages. From basic arithmetic to advanced calculus, we make math fun and accessible for everyone.",
+            "buttonLabel": "More Details"
+        }
+]
+

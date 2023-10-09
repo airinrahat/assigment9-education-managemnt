@@ -23,10 +23,10 @@ const ServiceDetails = () => {
               />
             </figure>
             <div className="card-body">
-              <h2 className="card-title font-bold md:text-3xl text-2xl">
+              <h2 className="card-title font-bold md:text-3xl text-3xl">
                 {detail.name}
               </h2>
-              <p className="font-sans">{detail.description}</p>
+              <p className="font-sans text-2xl">{detail.description}</p>
             </div>
           </div>
         </div>

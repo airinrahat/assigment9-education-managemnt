@@ -27,10 +27,9 @@ const Banner = () => {
         <SwiperSlide>
           <div className="banner-con banner-bg-1 flex justify-center items-center text-white ">
             <div className="banner-box md:w-2/4">
-              <h1 className="text-5xl  ">Join Our Summer Camp Learning</h1>
+              <h1 className="text-4xl  ">Education is the Mother of Leadership</h1>
               <h4 className="text-lg py-2 mt-2 ">
-                TAKE ADVANTAGE OF THIS AMAZING EXCLUSIVE OFFER DON`T MISS THIS
-                OPPORTUNITY FOR YOUR SCHOOL
+              Education can Change Your Life! So what are you waiting for?
               </h4>
               <p className="my-2">
                 Dynamically target high-payoff intellectual capital for
@@ -48,10 +47,9 @@ const Banner = () => {
         <SwiperSlide>
           <div className="banner-con banner-bg-2 flex justify-center items-center text-white ">
             <div className="banner-box md:w-2/4">
-              <h1 className="text-5xl">Join Our Summer Camp Learning</h1>
-              <h4 className="text-lg py-2  mt-2">
-                TAKE ADVANTAGE OF THIS AMAZING EXCLUSIVE OFFER DON`T MISS THIS
-                OPPORTUNITY FOR YOUR SCHOOL
+            <h1 className="text-4xl  ">Education is the Mother of Leadership</h1>
+              <h4 className="text-lg py-2 mt-2 ">
+              Education can Change Your Life! So what are you waiting for?
               </h4>
               <p className="my-2">
                 Dynamically target high-payoff intellectual capital for
@@ -69,10 +67,9 @@ const Banner = () => {
         <SwiperSlide>
           <div className="banner-con banner-bg-3 flex justify-center items-center text-white ">
             <div className="banner-box md:w-2/4">
-              <h1 className="text-5xl">Join Our Summer Camp Learning</h1>
-              <h4 className="text-lg py-2 mt-2">
-                TAKE ADVANTAGE OF THIS AMAZING EXCLUSIVE OFFER DON`T MISS THIS
-                OPPORTUNITY FOR YOUR SCHOOL
+            <h1 className="text-4xl  ">Education is the Mother of Leadership</h1>
+              <h4 className="text-lg py-2 mt-2 ">
+              Education can Change Your Life! So what are you waiting for?
               </h4>
               <p className="my-2">
                 Dynamically target high-payoff intellectual capital for
@@ -90,10 +87,9 @@ const Banner = () => {
         <SwiperSlide>
           <div className="banner-con banner-bg-4 flex justify-center items-center text-white ">
             <div className="banner-box md:w-2/4">
-              <h1 className="text-5xl">Join Our Summer Camp Learning</h1>
-              <h4 className="text-lg py-2 mt-2">
-                TAKE ADVANTAGE OF THIS AMAZING EXCLUSIVE OFFER DON`T MISS THIS
-                OPPORTUNITY FOR YOUR SCHOOL
+            <h1 className="text-4xl  ">Education is the Mother of Leadership</h1>
+              <h4 className="text-lg py-2 mt-2 ">
+              Education can Change Your Life! So what are you waiting for?
               </h4>
               <p className="my-2">
                 Dynamically target high-payoff intellectual capital for

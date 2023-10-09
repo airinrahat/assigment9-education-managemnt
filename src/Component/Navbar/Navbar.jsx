@@ -3,6 +3,7 @@
 import React, { useContext } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { AuthContext } from '../../providers/AuthProvider';
+import { FaGraduationCap } from "react-icons/fa6";
 
 const Navbar = () => {
 
@@ -19,6 +20,8 @@ const Navbar = () => {
      <li><NavLink to='/'>Home</NavLink></li>
      <li className='mx-2'><NavLink to='/services'>Services</NavLink></li>
      <li><NavLink to='/blog'>Blog</NavLink></li>
+     <li className='mx-2'><NavLink to='/course'>Courses</NavLink></li>
+     <li><NavLink to='/events'>Events</NavLink></li>
     </>
     return (
        <>
@@ -34,7 +37,7 @@ const Navbar = () => {
               {links}
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-2xl">Education</a>
+          <a className="btn btn-ghost normal-case text-4xl"><FaGraduationCap></FaGraduationCap> Education</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 py-3 text-xl">

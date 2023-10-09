@@ -57,16 +57,12 @@ const Blog = () => {
             id="panel2bh-header"
           >
             <Typography sx={{ width: "33%", flexShrink: 0 }}>
-              What is jwt authentication in react js ?
+            what is firebase ?
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              JWT, or JSON Web Token, is a web protocol used to share security
-              information between client and a server. In a standard web
-              application, private API requests contain JWT that is generated as
-              a result of the verification of the user information, thus
-              allowing these users to reach protected data and access services.
+            Firebase provides a NoSQL cloud-based database that allows developers to store and sync data in real time. This is particularly useful for applications that require real-time updates, such as chat apps or collaborative tools. Firebase includes robust user authentication services that enable developers to easily integrate secure user registration and authentication into their applications using various methods like email/password, social logins (Google, Facebook, Twitter), and more.
             </Typography>
           </AccordionDetails>
         </Accordion>

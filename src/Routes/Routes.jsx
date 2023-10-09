@@ -9,6 +9,8 @@ import Singup from "../Pages/LoginSingup/Singup";
 import Login from "../Pages/LoginSingup/Login";
 import PrivateRoute from "./PrivateRoute";
 import Blog from "../Pages/Blog/Blog";
+import Course from "../Pages/Course/Course";
+import Events from "../Pages/Events/Events";
 
 const routes =createBrowserRouter([
     {
@@ -19,17 +21,26 @@ const routes =createBrowserRouter([
             {
                 path: "/",
                 element: <Home></Home>,
-                loader: () => fetch("/public/service.json"),
+                loader: () => fetch("/public/services.json"),
               },
               {
                 path:"/services",
                 element:<Services></Services>,
-                loader: () => fetch('/public/service.json')
+                loader: () => fetch('/public/services.json')
               }, 
               {
                 path: "/blog",
                 element: <Blog></Blog>,
               }, 
+              {
+                path:"/course",
+                element:<Course></Course>
+              },
+              {
+                path:"/events",
+                element:<Events></Events>,
+                loader: () => fetch('/public/event.json')
+              },
                {
                 path: "/login",
                 element: <Login></Login>
@@ -44,7 +55,7 @@ const routes =createBrowserRouter([
                 <PrivateRoute>
                   <ServiceDetails></ServiceDetails>
                 </PrivateRoute>, 
-                loader: () => fetch("/public/service.json"),
+                loader: () => fetch("/public/services.json"),
               },
         ]
     }

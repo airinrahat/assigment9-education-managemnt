@@ -18,13 +18,12 @@ const About = () => {
         </div>
         <div>
           <h2 className="text-[#fd4d40] text-2xl italic">About Us</h2>
-          <h3 className="text-4xl my-2">Bring Fun Life To Your Kids</h3>
+          <h3 className="text-4xl my-2">The Result of All True Learning</h3>
+         
           <p className="font-light leading-7 mb-2 text-xl">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et harum,
-            magni sequi nostrum maxime enim.Magnam id atque dicta deleniti,
-            ipsam ipsum distinctio. Facilis praesentium voluptatem accusamus,
-            earum veritatis, laudantium. Ea, dolor autem? Sit tempore unde
-            debitis, saepe hic earum a vitae!
+          A modern and unique style to make your Educational platform standout.
+          Present Education in beautiful way! A modern and unique style to make your Educational platform standout.
+          Present Education in beautiful way!
           </p>
           <button className="btn about-btn mt-4">More About Us</button>
         </div>

@@ -1,0 +1,106 @@
+[
+    {
+      "id": "1",
+      "title": "llearning seminar and session",
+      "image": "https://i.ibb.co/zrh4qhG/event5.jpg",
+      "date": "15 June",
+      "time": "10:00 AM - 2:00 PM",
+      "location": "123 Main Street, Cityville",
+      "details": "Join us for a workshop on the basics of programming.",
+      "button" : "More Details"
+    },
+    {
+      "id": "2",
+      "title": "Artificial Intelligence and Machine Learning Seminar",
+      "image": "https://i.ibb.co/RYZtDrY/event4.jpg",
+      "date": "15 June",
+      "time": "9:30 AM - 4:00 PM",
+      "location": "456 Elm Avenue, Townsville",
+      "details": "Explore the world of AI and ML in this informative seminar.",
+      "button" : "More Details"
+    },
+    {
+      "id": "3",
+      "title": "Digital Marketing Strategies Lecture",
+      "image": "https://i.ibb.co/3MbRwS1/event3.jpg",
+      "date": "15 June",
+      "time": "11:00 AM - 1:00 PM",
+      "location": "789 Oak Road, Villagetown",
+      "details": "Learn about effective digital marketing strategies.",
+      "button" : "More Details"
+    },
+    {
+      "id": "4",
+      "title": "Web Development Basics Workshop",
+      "image": "https://i.ibb.co/6tzpFXG/event2.jpg",
+      "date": "15 June",
+      "time": "3:30 PM - 6:00 PM",
+      "location": "567 Pine Lane, Hamletville",
+      "details": "Get hands-on experience with web development basics.",
+      "button" : "More Details"
+    },
+    {
+      "id": "5",
+      "title": "Career Opportunities in IT Panel Discussion",
+      "image": "https://i.ibb.co/P1m2vtZ/event.jpg",
+      "date": "15 June",
+      "time": "10:30 AM - 12:30 PM",
+      "location": "101 Cedar Street, Riverside",
+      "details": "Discover various career paths in the IT industry.",
+      "button" : "More Details"
+    },
+    {
+      "id": "6",
+      "title": "Effective Communication Skills Workshop",
+      "image": "https://i.ibb.co/P1m2vtZ/event.jpg",
+      "date": "15 June",
+      "time": "2:00 PM - 5:00 PM",
+      "location": "222 Maple Drive, Lakeside",
+      "details": "Enhance your communication skills for success.",
+      "button" : "More Details"
+    },
+    {
+      "id": "7",
+      "title": "Leadership and Team Management Seminar",
+      "image": "https://example.com/event7.jpg",
+      "date": "15 June",
+      "time": "9:00 AM - 12:00 PM",
+      "location": "333 Birch Street, Hillside",
+      "details": "Learn effective leadership and team management techniques.",
+      "button" : "More Details"
+    },
+    {
+      "id": "8",
+      "title": "Financial Literacy Interactive Session",
+      "image": "https://example.com/event8.jpg",
+      "date": "15 June",
+      "time": "1:30 PM - 3:30 PM",
+      "location": "444 Willow Lane, Meadowville",
+      "details": "Gain knowledge about financial literacy and budgeting.",
+      "button" : "More Details"
+    },
+    {
+      "id": "9",
+      "title": "Creative Writing Techniques Workshop",
+      "image": "https://example.com/event9.jpg",
+      "date": "15 June",
+      "time": "10:00 AM - 1:00 PM",
+      "location": "555 Redwood Road, Grovetown",
+      "details": "Explore creative writing techniques and storytelling.",
+      "button" : "More Details"
+    },
+    {
+      "id": "10",
+      "title": "Education Career Fair",
+      "image": "https://example.com/event10.jpg",
+      "date": "15 June",
+      "time": "3:00 PM - 5:30 PM",
+      "location": "666 Sycamore Avenue, Forestville",
+      "details": "Meet representatives from various educational institutions.",
+      "button" : "More Details"
+    }
+  ]
+ 
+
+
+
