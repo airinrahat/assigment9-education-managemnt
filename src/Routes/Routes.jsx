@@ -34,11 +34,16 @@ const routes =createBrowserRouter([
               }, 
               {
                 path:"/course",
-                element:<Course></Course>
+                element:<PrivateRoute>
+                  <Course></Course>
+                </PrivateRoute>
               },
               {
                 path:"/events",
-                element:<Events></Events>,
+                // element:<Events></Events>,
+                element:<PrivateRoute>
+                  <Events></Events>
+                </PrivateRoute>,
                 loader: () => fetch('/public/event.json')
               },
                {

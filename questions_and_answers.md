@@ -1,4 +1,4 @@
-## 1. Write the correct answer from the following options and give an explanation (2-5 lines).
+<!-- ## 1. Write the correct answer from the following options and give an explanation (2-5 lines).
 
 let greeting;
 greetign = {};
@@ -77,4 +77,4 @@ Answer: C: 3.
 
 # Explanation:
 
-In the code, the forEach method iterates over the nums array and increments the count variable for each element that is considered truthy. In JavaScript, all values except 0, undefined, null, false, NaN, and an empty string (""), are considered truthy. In the nums array, there are three truthy values (1, 2, and 3), so the count variable is incremented three times, resulting in a final value of 3. Therefore, when you log count, it will output 3.
+In the code, the forEach method iterates over the nums array and increments the count variable for each element that is considered truthy. In JavaScript, all values except 0, undefined, null, false, NaN, and an empty string (""), are considered truthy. In the nums array, there are three truthy values (1, 2, and 3), so the count variable is incremented three times, resulting in a final value of 3. Therefore, when you log count, it will output 3. -->
