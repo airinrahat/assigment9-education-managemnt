@@ -58,47 +58,11 @@
       "location": "222 Maple Drive, Lakeside",
       "details": "Enhance your communication skills for success.",
       "button" : "More Details"
-    },
-    {
-      "id": "7",
-      "title": "Leadership and Team Management Seminar",
-      "image": "https://example.com/event7.jpg",
-      "date": "15 June",
-      "time": "9:00 AM - 12:00 PM",
-      "location": "333 Birch Street, Hillside",
-      "details": "Learn effective leadership and team management techniques.",
-      "button" : "More Details"
-    },
-    {
-      "id": "8",
-      "title": "Financial Literacy Interactive Session",
-      "image": "https://example.com/event8.jpg",
-      "date": "15 June",
-      "time": "1:30 PM - 3:30 PM",
-      "location": "444 Willow Lane, Meadowville",
-      "details": "Gain knowledge about financial literacy and budgeting.",
-      "button" : "More Details"
-    },
-    {
-      "id": "9",
-      "title": "Creative Writing Techniques Workshop",
-      "image": "https://example.com/event9.jpg",
-      "date": "15 June",
-      "time": "10:00 AM - 1:00 PM",
-      "location": "555 Redwood Road, Grovetown",
-      "details": "Explore creative writing techniques and storytelling.",
-      "button" : "More Details"
-    },
-    {
-      "id": "10",
-      "title": "Education Career Fair",
-      "image": "https://example.com/event10.jpg",
-      "date": "15 June",
-      "time": "3:00 PM - 5:30 PM",
-      "location": "666 Sycamore Avenue, Forestville",
-      "details": "Meet representatives from various educational institutions.",
-      "button" : "More Details"
     }
+    
+  
+   
+   
   ]
  
 

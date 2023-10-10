@@ -22,13 +22,13 @@ const routes =createBrowserRouter([
                 path: "/",
                 element: <Home></Home>,
                 // loader: () => fetch("/public/services.json"),
-                loader: () => fetch("services.json"),
+                loader: () => fetch("/services.json"),
               },
               {
                 path:"/services",
                 element:<Services></Services>,
                 // loader: () => fetch('/public/services.json')
-                loader: () => fetch('services.json')
+                loader: () => fetch('/services.json')
                
 
               }, 
@@ -48,7 +48,7 @@ const routes =createBrowserRouter([
                   <Events></Events>
                 </PrivateRoute>,
                 // loader: () => fetch('/public/event.json')
-                loader: () => fetch('event.json')
+                loader: () => fetch('/event.json')
               },
                {
                 path: "/login",
@@ -64,8 +64,8 @@ const routes =createBrowserRouter([
                 <PrivateRoute>
                   <ServiceDetails></ServiceDetails>
                 </PrivateRoute>, 
-                loader: () => fetch("/public/services.json"),
-                // loader: () => fetch("services.json"),
+                // loader: () => fetch("/public/services.json"),
+                loader: () => fetch("/services.json"),
               },
         ]
     }

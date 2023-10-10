@@ -12,7 +12,7 @@ const Events = () => {
              <h2 className='text-4xl text-center mb-10 font-bold'>Our Events</h2>
            <div className="grid lg:grid-cols-2 lg:px-0 px-10 gap-10 items-center">
            {
-            events.slice(0,6).map((event) => (<EventCard key={event.id} event={event}></EventCard>))
+            events.map((event) => (<EventCard key={event.id} event={event}></EventCard>))
            }
            </div>
         </div>
